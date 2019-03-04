@@ -10,31 +10,29 @@ font-weight: 400;
 }
 
  /* all navigation */
+
+.fixedNavigation {
+	position: fixed;
+	z-index: 10;
+}
+
 .navigation ul{
-	padding: 30px 0 0 10px;
-	margin: 0;
+	padding: 10px 12px 10px 12px;
+	margin: 3% 0 0 3%;
 	list-style: none;
+	background-color: white;
 }
 
 .navigation ul li a {
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-size: 24px;
 	font-weight: 700;
-	line-height: 50px;
+	line-height: 30px;
 }
 
 .navigation ul li a:hover {
 	color: #474747;
-}
-
-.fixedNavigation {
-	position: fixed;
-	width: 15%;
-	min-width: 216px;
-	background-color: black;
-	height: 100%;
-	z-index: 10;
 }
 
 .homepageBox .fixedNavigation {
@@ -44,8 +42,8 @@ font-weight: 400;
 }
 
 .navigation2 ul{
-	padding: 15px 0 0 20px;
-	margin: 0;
+	padding: 10px 8px 10px 8px;
+	margin: 3% 0 0 3%;
 	list-style: none;
 }
 
@@ -108,16 +106,15 @@ font-weight: 400;
 
 .fullImage img{
 	display: block;
-	margin-left: 15%;
-	width: 85%;
+	width: 100%;
 	box-sizing: border-box;
 	padding-bottom:0;
 	margin-bottom:0;
 }
 
 .boxText{
-	margin-left: 15%;
-	width: 85%;
+	margin-left: 0%;
+	width: 100%;
 }
 
 .boxText p{
@@ -128,27 +125,23 @@ font-weight: 400;
 	margin-top:0;
 }
 
-.centeredText{
-	margin-left: 15%;
-	width: 85%;
-}
-
 .centeredText p{
 	margin: auto;
 	text-align: center;
 	color: black;
 	box-sizing: border-box;
-	padding: 20% 30% 2% 30%;
+	padding: 20% 35% 2% 35%;
 	margin-top:0;
 }
 
 .centeredText a{
-	padding: 0 30% 0 45%;
+	padding: 0 30% 0 46.5%;
 	margin: none;
 	text-decoration: none;
 	color: black;
 	font-weight: 500;
 	text-align: center;
+	display: inline-block;
 }
 
 .centeredText a:hover{
@@ -156,14 +149,12 @@ font-weight: 400;
 }
 
 .boxImage{
-	margin-left: 15%;
-	padding: 2% 0 0 17%;
-	width: 85%;
+	padding: 2% 0 0 28%;
 }
 
 .levittownBox1{
-	padding-top: 2%;
-	margin-left: 18%;
+	margin-left: 16%;
+	margin-bottom: 2%;
 	display: inline-block;
 }
 
@@ -178,18 +169,15 @@ font-weight: 400;
 }
 
 #video2 {
-    margin-left: 15%;
-    width: 85%;
+    width: 100%;
     right: 0;
-    width: 85%;
+    width: 100%;
     height:100%;
     background-color: black;
 }
 
 .typeMetaphorBox1{
-	margin-left: 19%;
-	padding: 0 0 0 17%;
-	width: 85%;
+	margin-left: 32%;
 }
 
 .theChairBox1{
@@ -205,12 +193,12 @@ font-weight: 400;
 }
 
 .theChairBox3{
-	margin-left: 8%;
-	padding: 2% 0 0 17%;
+	margin-left: 22%;
+	padding: 2% 0 0 0;
 }
 
 .theChairBox2{
-	margin-left: 19%;
+	margin-left: 17%;
 	padding: 2% 0 0 0;
 }
 
@@ -219,13 +207,25 @@ font-weight: 400;
 }
 
 .fashionLoopBox2{
-	margin-left: 37%;
+	margin-left: 32%;
+}
+
+.fashionLoopBox3{
+	display: block;
+	margin-left: 13%;
+}
+
+.fashionLoopBox3 img{
+	padding: 0 1% 2% 0;
 }
 
 .fashionLoopBox1{
 	display: block;
-	margin-left: 28%;
-	padding-top: 2%;
+	margin-left: 24%;
+}
+
+.fashionLoopBox1 img{
+	padding: 0 1% 2% 0;	
 }
 
 .infStudiesBox1{
@@ -248,17 +248,20 @@ font-weight: 400;
 .homepageBox{
 	width: 50%;
 	z-index: 5;
-	padding-top: 25%;
-	position: relative;
+	position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 1%;
 }
 
 .homepageBox h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
-	font-size: 140px;
+	font-size: 160px;
 	line-height: 120px;
 	margin: 0;
-	padding-left: 8%;
+	padding-left: 6%;
 }
 
 .homepageBox h2{
@@ -266,7 +269,7 @@ font-weight: 400;
 	font-weight: 500;
 	margin-top: 0;
 	font-size: 36px;
-	padding-left: 9%;
+	padding-left: 7%;
 }
 
 .aboutMeBox{
